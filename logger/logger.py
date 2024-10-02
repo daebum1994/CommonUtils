@@ -2,7 +2,7 @@ import os
 import logging
 from logging.handlers import RotatingFileHandler
 
-from config.settings import ROOT_DIR
+ROOT_DIR = "./"
 
 
 def setup_logger(name, log_level=logging.ERROR):
